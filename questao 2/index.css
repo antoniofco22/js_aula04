@@ -1,0 +1,48 @@
+*{
+	padding:0;
+	margin:0;
+}
+form{
+    position: relative;
+    left: 40vw;
+    width: 20vw;
+    top: 10vh;
+	padding:1rem;
+}
+.form-example{
+width: auto;
+font-size: 115%;
+font-family: arial;
+font-weight: bold;
+}
+div{
+padding: 1rem;
+}
+#result{
+    position: relative;
+    left: 40vw;
+    width: 20vw;
+    top: 10vh;
+font-size: 115%;
+font-family: arial;
+font-weight: bold;
+}
+button{
+width: 100%;
+padding: 0.5rem;
+font-size: 1.25rem;
+color: white;
+background: #012346;
+border: 0;
+}
+button:hover{
+color: #012346;
+background: white;
+border: 1px solid #012346;
+}
+#result, form{
+box-shadow:0rem 0rem 0.5rem #012346
+}
+#result p{
+	margin: 2rem;
+}
